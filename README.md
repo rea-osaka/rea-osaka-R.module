@@ -1,2 +1,13 @@
 # rea-osaka-R.module
-R module to analyse real estate prices
+
+## REanalysis.R
+
+国土交通省で発表している「不動産取引価格情報」のCSVデータを活用し、その統計量やデータの可視化を支援するためのＲ言語モジュールです。
+
+REanalysis.Rファイルは、文字コードが「cp932」、改行コードは「CRLF」にしてあります。
+
+Windowsユーザーの場合、このファイルをJupyterNotebook等にそのままsource()関数で読み込んで使えます。
+
+ＰＣに不慣れでないユーザーは、各自でスクリプト、入力データの文字コードを「UTF-8」に変更して使用すると良いと思います。
+特に、JupyterNotebook等を使う場合、「cp932」では、要素名等の表示でエラーが出ることがあるかもしれません。
+
