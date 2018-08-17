@@ -58,13 +58,15 @@ CSVから読み込まれたデータの統計量を簡単に見ることが出�
 ```
 LBdata_summary(hirakata)
 ```
-![screen shot]("images/jn_sc_20180817001.png")
+JupyterNotebook環境のスクリーンショットを下に示します。
+![screen shot](images/jn_sc_20180817001.png)
 
 次は、ヒストグラムや分布図の表示です。
 ```
 LBdata_graph(hirakata)
 ```
-![output_4_0]("images/output_4_0.png")
+グラフは次のように画像ファイルとして取り出すことも出来ます。
+![output_4_0](images/output_4_0.png)
 
 ## 取引指数の計算とグラフの表示
 国土交通省が策定している「不動産価格指数（住宅）」の作成方法を参考に価格指数を算出する関数です。
@@ -76,5 +78,5 @@ hirakata_index <- make_transaction_index(hirakata,4)
 draw_transaction_index_graph(hirakata_index)
 ```
 
-![output_5_0]("images/output_5_0.png")
+![output_5_1](images/output_5_1.png)
 
